@@ -4,8 +4,8 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
 
+  hostname: "https://mister-hope.github.io",
   author: {
     name: "Mr.Tzr",
     url: "https://mister-hope.com",
@@ -15,7 +15,7 @@ export default hopeTheme({
 
   logo: "/assets/images/tx.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "mrike3/MrTzr",
 
   docsDir: "src",
 
@@ -35,7 +35,7 @@ export default hopeTheme({
     intro: "/intro.html",
     medias: {
       // Baidu: "https://example.com",
-      BiliBili: "https://example.com",
+      BiliBili: "https://space.bilibili.com/1732827103?spm_id_from=333.1007.0.0",
       // Douyin: "https://example.com",
       // Bitbucket: "https://example.com",
       // Dingding: "https://example.com",
@@ -45,8 +45,8 @@ export default hopeTheme({
       // Evernote: "https://example.com",
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
+      Gitee: "https://gitee.com/?from=eTab",
+      GitHub: "https://github.com/mrike3/MrTzr",
       // Gitlab: "https://example.com",
       // Gmail: "mailto:info@example.com",
       // Instagram: "https://example.com",
@@ -55,13 +55,13 @@ export default hopeTheme({
       // Linkedin: "https://example.com",
       // Pinterest: "https://example.com",
       // Pocket: "https://example.com",
-      QQ: "https://example.com",
+      QQ: "http://wpa.qq.com/msgrd?v=3&uin=3136675549&site=qq&menu=yes",
       // Qzone: "https://example.com",
       // Reddit: "https://example.com",
       // Rss: "https://example.com",
       // Steam: "https://example.com",
       // Twitter: "https://example.com",
-      Wechat: "https://example.com",
+      Wechat: "https://weixin.qq.com/",
       // Weibo: "https://example.com",
       // Whatsapp: "https://example.com",
       // Youtube: "https://example.com",
@@ -91,7 +91,16 @@ export default hopeTheme({
   // 在这里配置主题提供的插件
   plugins: {
     blog: true,
-
+    searchPro: true,
+    photoSwipe: true,
+    comment:{
+      provider: "Giscus",
+      comment:true,
+      repo: "mrike3/MrTzr",
+      repoId: "R_kgDOMfinug",
+      category:"Announcements",
+      categoryId: "DIC_kwDOMfinus4ChbgY"
+    },
     // 启用之前需安装 @waline/client
     // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
     // comment: {
@@ -232,4 +241,6 @@ export default hopeTheme({
     //   },
     // },
   },
+},{
+  custom:true
 });

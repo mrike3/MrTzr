@@ -1,13 +1,14 @@
 ---
 home: true
 layout: BlogHome
+product: true
 icon: home
 title: 主页
 heroImage: /assets/images/tx.png
-heroText: Mr.Tzr
+heroText: Mr.Tzr's Blog
 bgImage: https://browser9.qhimg.com//bdr//__85//t010824ab8b5cdfa138.jpg
 heroFullScreen: true
-tagline: Believe that time will pass!
+tagline: <p style="text-align:center">I believe time will erase all mistakes, but some things,<br/>As long as you persevere, you can certainly do it.</p>
 projects:
   - icon: project
     name: 项目名称
@@ -41,3 +42,6 @@ projects:
 
 footer: 欢迎来到Mr.Tzr的博客
 ---
+<script>
+
+</script>
