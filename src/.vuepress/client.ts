@@ -4,7 +4,13 @@ import { setupSnowFall } from "vuepress-theme-hope/presets/snowFall.js";
 import 'vuepress-theme-hope/presets/round-blogger-avatar.scss';
 import 'vuepress-theme-hope/presets/bounce-icon.scss';
 
+import elementplus from 'element-plus'
+
 export default defineClientConfig({
+    enhance({app, router, siteData}) {
+        app.use(elementplus)
+    },
+
     setup() {
         setupSnowFall(),
         setupRunningTimeFooter(

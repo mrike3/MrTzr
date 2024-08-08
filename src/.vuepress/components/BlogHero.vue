@@ -13,5 +13,11 @@ import HitokotoBlogHero from "vuepress-theme-hope/presets/HitokotoBlogHero.js";
     <template #info="info">
       <HitokotoBlogHero v-bind="info" />
     </template>
+    <template>
+      00
+    </template>
   </BlogHero>
+
 </template>
+<style>
+</style>

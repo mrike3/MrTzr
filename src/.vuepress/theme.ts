@@ -16,12 +16,13 @@ export default hopeTheme({
   logo: "/assets/images/tx.png",
 
   repo: "mrike3/MrTzr",
-
+  hotReload: true,
   docsDir: "src",
 
   // 导航栏
   navbar,
 
+  fullscreen: true,
   // 侧边栏
   sidebar,
 
@@ -31,6 +32,7 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
+
     description: "一个普通大学生开发者",
     intro: "/intro.html",
     medias: {
@@ -91,6 +93,7 @@ export default hopeTheme({
   // 在这里配置主题提供的插件
   plugins: {
     blog: true,
+
     searchPro: true,
     photoSwipe: true,
     comment:{
@@ -114,6 +117,7 @@ export default hopeTheme({
 
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。
     mdEnhance: {
+      alert: true,
       align: true,
       attrs: true,
       codetabs: true,
@@ -227,7 +231,7 @@ export default hopeTheme({
     //       {
     //         name: "Demo",
     //         short_name: "Demo",
-    //         url: "/demo/",
+    //         url: "/about/",
     //         icons: [
     //           {
     //             src: "/assets/icon/guide-maskable.png",

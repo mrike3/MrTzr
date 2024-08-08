@@ -10,38 +10,36 @@ bgImage: https://browser9.qhimg.com//bdr//__85//t010824ab8b5cdfa138.jpg
 heroFullScreen: true
 tagline: <p style="text-align:center">I believe time will erase all mistakes, but some things,<br/>As long as you persevere, you can certainly do it.</p>
 projects:
-  - icon: project
-    name: 项目名称
-    desc: 项目详细描述
+  - icon: /assets/icon/java.svg
+    name: Java
+    desc: Java学习笔记
     link: https://你的项目链接
 
-  - icon: link
-    name: 链接名称
-    desc: 链接详细描述
+  - icon: /assets/icon/Vue.svg
+    name: Vue
+    desc: Vue学习笔记
     link: https://链接地址
 
-  - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
+  - icon: /assets/icon/springboot.svg
+    name: Spring Boot
+    desc: Spring Boot学习笔记
     link: https://你的书籍链接
 
-  - icon: article
-    name: 文章名称
-    desc: 文章详细描述
+  - icon: /assets/icon/PS.svg
+    name: Photoshop
+    desc: Photoshop学习笔记
     link: https://你的文章链接
 
-  - icon: friend
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
-
-  - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
+  - icon: /assets/icon/导入ArcGIS-copy.svg
+    name: ArcGIS
+    desc: ArcGIS学习笔记
+    link: https://你的文章链接
+    
+  - icon: /assets/icon/mysql.svg
+    name: MySQL
+    desc: MySQL学习笔记
+    link: https://你的文章链接
+  
 
 footer: 欢迎来到Mr.Tzr的博客
 ---
-<script>
-
-</script>
