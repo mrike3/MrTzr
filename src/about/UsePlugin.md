@@ -58,8 +58,47 @@ export default defineUserConfig({
 //     其它配置项
 })
 ```
-
 ## 音乐播放器
+借鉴MetingJS解析和使用APlayer作为播放组件，使用了[Oragekk's Blog](https://oragekk.me/)博主的开源项目[vuepress-plugin-meting2](https://oragekk.me/tutorial/OSS/meting2.html)
+安装依赖：
+::: tabs
+@tab npm
+````shell
+npm i vuepress-plugin-meting2 -D
+````
+@tab pnpm
+````shell
+pnpm add vuepress-plugin-meting2 -D
+````
+:::
+使用：
+```typescript
+import { defineUserConfig } from "vuepress";
+import { metingPlugin } from "vuepress-plugin-meting2";
+export default defineUserConfig({
+    plugins: [
+        metingPlugin({
+            metingOptions: {
+                global:true, // 开启关闭全局播放器
+                server: "tencent",
+                api: "https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r",
+                type: "playlist",
+                mid: "851947617",
+            },
+        }),
+    ]
+//     其它配置项
+})
+```
+## 参考博客站点
+```component SiteInfo
+name: Oragekk's Blog
+desc: 愿人生如剑，立起寒光四射，躺倒四射寒光。
+url: https://oragekk.me/
+logo: https://oragekk.me/logo.svg
+repo: https://github.com/OrageKK/oragekk.github.io
+preview: /assets/Preview/Oragekk-Preview.png
+```
 
 
 
