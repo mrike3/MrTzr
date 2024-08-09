@@ -8,4 +8,11 @@ export default sidebar({
       children: "structure",
     },
   ],
+  "/docs/VitePress/": [
+    {
+      text: "VitePress",
+      icon: "https://vitepress.dev/vitepress-logo-mini.svg",
+      children: "structure"
+    }
+  ]
 });

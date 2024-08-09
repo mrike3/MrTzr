@@ -35,10 +35,15 @@ projects:
     desc: ArcGIS学习笔记
     link: https://你的文章链接
     
-  - icon: /assets/icon/mysql.svg
-    name: MySQL
-    desc: MySQL学习笔记
-    link: https://你的文章链接
+  - icon: https://vitepress.dev/vitepress-logo-mini.svg
+    name: VitePress
+    desc: VitePress搭建笔记
+    link: /docs/VitePress/
+    
+  - icon: laptop-code
+    name: 关于本站
+    desc: 关于本站的一些信息
+    link: /about/
   
 
 footer: 欢迎来到Mr.Tzr的博客

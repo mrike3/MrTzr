@@ -1,3 +1,4 @@
+// .vuepress/plugins/vuepress-plugin-popper/index.ts
 import { App, PageOptions, PluginFunction } from "vuepress";
 import { getDirname, path } from "vuepress/utils";
 import { PopperOption } from "./type.js";

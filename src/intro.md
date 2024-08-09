@@ -42,8 +42,11 @@ content: portfolio
 </el-row>
 
 ## 教育经历
-<el-row style="width: 111%;">
-<el-col :span="6">
+
+
+<el-row style="width: 111%;flex-wrap: wrap;" >
+<el-col :span="6" :xs="24" align="center"> 
+
 
 ```component VPCard
 title: 西南林业大学
@@ -52,7 +55,7 @@ logo: https://www.swfu.edu.cn/wp-content/uploads/2018/09/favcion-1.png
 link: http://www.swfu.edu.cn/
 ```
 </el-col>
-<el-col :span="6">
+<el-col :span="6" :xs="24" align="center">
 
 ```component VPCard
 title: 云南农业职业技术学院
@@ -62,7 +65,8 @@ link: http://www.ynavc.com/
 background: 
 ```
 </el-col>
-<el-col :span="6">
+
+<el-col :span="6" :xs="24" align="center">
 
 ```component VPCard
 title: 红河州农业学校
@@ -71,7 +75,8 @@ logo: https://static.zhijiao.cn/upload/img/202201/fa7c2206ee00219cac51147069b5e2
 link: #
 ```
 </el-col>
-<el-col :span="6">
+
+<el-col :span="6" :xs="24" align="center">
 
 ```component VPCard
 title: 屏边县第二中学
@@ -86,7 +91,7 @@ link: #
 
 ### 编程语言
 <el-row style="width: 111%;">
-<el-col :span="6">
+<el-col :span="6" :xs="24" align="center">
 
 ```component VPCard
 title: Java
@@ -95,7 +100,7 @@ logo: ./assets/icon/java.svg
 link: https://www.java.com/
 ```
 </el-col>
-<el-col :span="6">
+<el-col :span="6" :xs="24" align="center">
 
 ```component VPCard
 title: MySql
@@ -104,7 +109,7 @@ logo: ./assets/icon/mysql.svg
 link: https://www.mysql.com/cn/
 ```
 </el-col>
-<el-col :span="6">
+<el-col :span="6" :xs="24" align="center">
 
 ```component VPCard
 title: SpringBoot
@@ -113,7 +118,7 @@ logo: ./assets/icon/springboot.svg
 link: https://spring.p2hp.com/
 ```
 </el-col>
-<el-col :span="6">
+<el-col :span="6" :xs="24" align="center">
 
 ```component VPCard
 title: Vue
@@ -125,8 +130,8 @@ link: https://cn.vuejs.org/
 </el-row>
 
 ### 桌面软件
-<el-row style="width: 111%;">
-<el-col :span="6">
+<el-row style="width: 111%;" >
+<el-col :span="6" :xs="24" align="center">
 
 ```component VPCard
 title: Adobe Photoshop
@@ -135,7 +140,7 @@ logo: ./assets/icon/PS.svg
 link: https://www.adobe.com/cn/
 ```
 </el-col>
-<el-col :span="6">
+<el-col :span="6" :xs="24" align="center">
 
 ```component VPCard
 title: Adobe Premiere Pro
@@ -144,7 +149,7 @@ logo: ./assets/icon/Adobe Pr.svg
 link: https://www.adobe.com/cn/
 ```
 </el-col>
-<el-col :span="6">
+<el-col :span="6" :xs="24" align="center">
 
 ```component VPCard
 title: Adobe After Effects
@@ -153,7 +158,7 @@ logo: ./assets/icon/Adobe Ae.svg
 link: https://www.adobe.com/cn/
 ```
 </el-col>
-<el-col :span="6">
+<el-col :span="6" :xs="24" align="center">
 
 ```component VPCard
 title: ArcGIS

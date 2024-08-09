@@ -93,7 +93,6 @@ export default hopeTheme({
   // 在这里配置主题提供的插件
   plugins: {
     blog: true,
-
     searchPro: true,
     photoSwipe: true,
     comment:{
@@ -112,7 +111,7 @@ export default hopeTheme({
     // },
 
     components: {
-      components: ["Badge", "VPCard"],
+      components: ["Badge", "VPCard","SiteInfo"],
     },
 
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。

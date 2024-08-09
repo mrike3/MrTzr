@@ -1,8 +1,7 @@
 ---
-cover: /assets/images/other/游戏少女.jpg
 title: "使用的生成器"
+order: 1
 date: 2024-8-8
-sticky: 10
 category:
   - 博客搭建
 tags:
@@ -30,15 +29,15 @@ link: https://theme-hope.vuejs.press/zh/?from=eTab
 在需要创建项目的目录下，使用以下命令进行初始化：
 ::: tabs#tab-cmd
 @tab npm
-````npm
+````shell
 npm init vuepress-theme-hope@latest my-docs
 ````
 @tab pnpm
-````pnpm
+````shell
 pnpm create vuepress-theme-hope my-docs
 ````
 @tab yarn
-````yarn
+````shell
 yarn create vuepress-theme-hope my-docs
 ````
 :::
@@ -48,16 +47,26 @@ yarn create vuepress-theme-hope my-docs
 根据提示创建完成后，进入项目目录，使用以下命令启动项目：
 ::: tabs#tab-cmd
 @tab npm
-````npm
+````shell
 npm run docs:dev
 ````
 @tab pnpm
-````pnpm
+````shell
 pnpm run docs:dev
 ````
 @tab yarn
-````yarn
+````shell
 yarn run docs:dev
 ````
 :::
 通过浏览器访问 `http://localhost:8080/` 即可看到效果。
+
+## 官网
+```component SiteInfo
+name: vuepress-theme-hope
+desc: VuePress 主题 Hope 是一款简洁、美观且功能丰富的 VuePress 主题。
+url: https://theme-hope.vuejs.press/zh/?from=eTab
+logo: https://vuepress-theme-hope.github.io/v2/logo.png
+repo: https://github.com/vuepress-theme-hope/vuepress-theme-hope
+preview: /assets/vuepress-theme-hope-preview.png
+```
