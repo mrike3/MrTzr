@@ -8,7 +8,8 @@ export default navbar([
     icon: "pen-to-square",
     prefix: "/docs/",
     children:[
-        {text: "VitePress", icon:"https://vitepress.dev/vitepress-logo-mini.svg",link: "/docs/VitePress/"}
+        {text: "VitePress", icon:"https://vitepress.dev/vitepress-logo-mini.svg",link: "/docs/VitePress/"},
+        {text: "英语语法", icon:"https://hzpt-inet-club.github.io/english-note/logo/logo.svg",link: "https://hzpt-inet-club.github.io/english-note/"},
     ],
 },
 "/about/",

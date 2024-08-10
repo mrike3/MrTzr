@@ -20,11 +20,6 @@ projects:
     desc: Vue学习笔记
     link: https://链接地址
 
-  - icon: /assets/icon/springboot.svg
-    name: Spring Boot
-    desc: Spring Boot学习笔记
-    link: https://你的书籍链接
-
   - icon: /assets/icon/PS.svg
     name: Photoshop
     desc: Photoshop学习笔记
@@ -34,6 +29,11 @@ projects:
     name: ArcGIS
     desc: ArcGIS学习笔记
     link: https://你的文章链接
+
+  - icon: https://hzpt-inet-club.github.io/english-note/logo/logo.svg
+    name: 英语语法
+    desc: 英语语法文章链接
+    link: https://hzpt-inet-club.github.io/english-note/
     
   - icon: https://vitepress.dev/vitepress-logo-mini.svg
     name: VitePress
