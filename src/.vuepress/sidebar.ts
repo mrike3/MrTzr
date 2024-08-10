@@ -14,5 +14,12 @@ export default sidebar({
       icon: "https://vitepress.dev/vitepress-logo-mini.svg",
       children: "structure"
     }
-  ]
+  ],
+  "/docs/MarkDown/": [
+    {
+      text: "MarkDown学习",
+      icon: "/assets/icon/markdown.svg",
+      children: "structure"
+    }
+  ],
 });
