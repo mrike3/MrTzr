@@ -56,6 +56,7 @@ export default defineUserConfig({
         numParticles: 8,
       },
     }),
+      
 
     // oml2dPlugin({
     //   // 在这里配置选项

@@ -17,5 +17,3 @@ $$
 $$
 f(x)=ax^2+bx+c
 $$
-
-<BiliBili bvid="BV1kt411o7C3" />

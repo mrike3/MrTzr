@@ -111,7 +111,7 @@ export default hopeTheme({
     // },
 
     components: {
-      components: ["Badge", "VPCard","SiteInfo"],
+      components: ["Badge", "VPCard","SiteInfo","ArtPlayer","BiliBili","PDF","Share","VPBanner"],
     },
 
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。
@@ -155,7 +155,7 @@ export default hopeTheme({
       // insert component easily
 
       // 在启用之前安装 echarts
-      // echarts: true,
+      echarts: true,
 
       // 在启用之前安装 flowchart.ts
       // flowchart: true,
@@ -181,8 +181,9 @@ export default hopeTheme({
       //   plugins: ["highlight", "math", "search", "notes", "zoom"],
       // },
 
+
       // 在启用之前安装 @vue/repl
-      // vuePlayground: true,
+      vuePlayground: true,
 
       // install sandpack-vue3 before enabling it
       // sandpack: true,
