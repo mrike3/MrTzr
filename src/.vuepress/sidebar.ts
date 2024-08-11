@@ -19,7 +19,7 @@ export default sidebar({
     {
       text: "MarkDown学习",
       icon: "/assets/icon/markdown.svg",
-      children: "structure"
+      children:"structure"
     }
   ],
 });
