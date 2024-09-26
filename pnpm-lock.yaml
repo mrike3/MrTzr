@@ -32,13 +32,13 @@ importers:
       jparticles:
         specifier: ^3.5.0
         version: 3.5.0
+      jquery:
+        specifier: ^3.7.1
+        version: 3.7.1
       vuepress-plugin-oh-my-live2d:
         specifier: ^0.19.3
         version: 0.19.3(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@22.1.0)(sass@1.77.8))(vue@3.4.35))
     devDependencies:
-      '@types/jquery':
-        specifier: ^3.5.31
-        version: 3.5.31
       '@vue/repl':
         specifier: ^4.3.1
         version: 4.3.1
@@ -646,9 +646,6 @@ packages:
   '@types/hast@3.0.4':
     resolution: {integrity: sha512-WPs+bbQw5aCj+x6laNGWLH3wviHtoCv/P3+otBhbOhJgG8qtpdAMlTCxLtsTWA7LH1Oh/bFCHsBn0TPS5m30EQ==}
 
-  '@types/jquery@3.5.31':
-    resolution: {integrity: sha512-rf/iB+cPJ/YZfMwr+FVuQbm7IaWC4y3FVYfVDxRGqmUCFjjPII0HWaP0vTPJGp6m4o13AXySCcMbWfrWtBFAKw==}
-
   '@types/jsonfile@6.1.4':
     resolution: {integrity: sha512-D5qGUYwjvnNNextdU59/+fI+spnwtTFmyQP0h+PfIOSkNfpU6AOICUOkm4i0OnSk+NyjdPJrxCDro0sJsWlRpQ==}
 
@@ -684,9 +681,6 @@ packages:
 
   '@types/sax@1.2.7':
     resolution: {integrity: sha512-rO73L89PJxeYM3s3pPPjiPgVVcymqU490g0YO5n5By0k2Erzj6tay/4lr1CHAAU4JyOWd1rpQ8bCf6cZfHU96A==}
-
-  '@types/sizzle@2.3.8':
-    resolution: {integrity: sha512-0vWLNK2D5MT9dg0iOo8GlKguPAU02QjmZitPEsXRuJXU/OGIOt9vT9Fc26wtYuavLxtO45v9PGleoL9Z0k1LHg==}
 
   '@types/trusted-types@2.0.7':
     resolution: {integrity: sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==}
@@ -1348,6 +1342,9 @@ packages:
 
   jparticles@3.5.0:
     resolution: {integrity: sha512-qUKP56Xqh2G7TqFKHMPDYzfZKkvsbLGJu+xJI4dh0YGZL26zOCUVV31MkkPWmfd6SaST23mhSvvvEArFd8yApQ==}
+
+  jquery@3.7.1:
+    resolution: {integrity: sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg==}
 
   js-yaml@3.14.1:
     resolution: {integrity: sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==}
@@ -2418,10 +2415,6 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.2
 
-  '@types/jquery@3.5.31':
-    dependencies:
-      '@types/sizzle': 2.3.8
-
   '@types/jsonfile@6.1.4':
     dependencies:
       '@types/node': 22.1.0
@@ -2458,8 +2451,6 @@ snapshots:
   '@types/sax@1.2.7':
     dependencies:
       '@types/node': 17.0.45
-
-  '@types/sizzle@2.3.8': {}
 
   '@types/trusted-types@2.0.7': {}
 
@@ -3332,6 +3323,8 @@ snapshots:
   isexe@2.0.0: {}
 
   jparticles@3.5.0: {}
+
+  jquery@3.7.1: {}
 
   js-yaml@3.14.1:
     dependencies:
