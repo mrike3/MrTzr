@@ -1,5 +1,5 @@
 ---
-cover: /assets/images/star.png
+cover: /assets/images/about.jpg
 title: 关于本站
 index: false
 sticky: 10
