@@ -13,7 +13,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "/assets/images/tx.png",
+  logo: "/assets/images/tx2.jpg",
 
   repo: "mrike3/MrTzr",
   hotReload: true,
@@ -180,8 +180,6 @@ export default hopeTheme({
       // revealJs: {
       //   plugins: ["highlight", "math", "search", "notes", "zoom"],
       // },
-
-
       // 在启用之前安装 @vue/repl
       vuePlayground: true,
 

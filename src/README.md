@@ -4,7 +4,7 @@ layout: BlogHome
 product: true
 icon: home
 title: 主页
-heroImage: /assets/images/tx.png
+heroImage: /assets/images/tx2.jpg
 heroText: Mr.Tzr's Blog
 bgImage: https://browser9.qhimg.com//bdr//__85//t010824ab8b5cdfa138.jpg
 heroFullScreen: true

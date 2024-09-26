@@ -22,4 +22,11 @@ export default sidebar({
       children:"structure"
     }
   ],
+  "/docs/Python/": [
+    {
+      text: "Python学习",
+      icon: "/assets/icon/python.svg",
+      children:"structure"
+    }
+  ],
 });

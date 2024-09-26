@@ -1,5 +1,5 @@
 ---
-cover: /assets/images/other/游戏少女.jpg
+cover: /assets/images/star.png
 title: 关于本站
 index: false
 sticky: 10

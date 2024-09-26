@@ -13,7 +13,7 @@ const __dirname = getDirname(import.meta.url);
 
 export default defineUserConfig({
   head:[
-    ["link", { rel: "icon", href: "https://mrike3.github.io/MrTzr/assets/images/tx.png" }],
+    ["link", { rel: "icon", href: "https://mrike3.github.io/MrTzr/assets/images/tx2.jpg" }],
     ['meta', {name: 'referrer', content: 'no-referrer-when-downgrade'}],
     ['script',{},
       `

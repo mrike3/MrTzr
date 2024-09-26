@@ -3,8 +3,8 @@ title: 个人介绍
 icon: book
 home: true
 portfolio: true
-welcome: &#x1F600;你好，我是
-name: Mr.Tzr
+welcome: 
+name: 田正荣
 avatar: /assets/images/my.png
 
 titles:
@@ -178,7 +178,8 @@ link: https://www.esri.com/en-us/home
 ![Alt](/assets/images/SWFU/7.jpg  =x100)&nbsp;
 ![Alt](/assets/images/SWFU/8.jpg  =x100)&nbsp;
 ![Alt](/assets/images/SWFU/3.jpg  =x100)&nbsp;
-
+![Alt](/assets/images/SWFU/9.jpg  =x100)&nbsp;
+![Alt](/assets/images/SWFU/10.jpg  =x100)&nbsp;
 ![Alt](/assets/images/other/1.jpg  =x100)&nbsp;
 ![Alt](/assets/images/other/2.jpg  =x100)&nbsp;
 ![Alt](/assets/images/other/3.jpg  =x100)&nbsp;
