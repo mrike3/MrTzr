@@ -11,6 +11,7 @@
     "docs:update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
+    "@types/jquery": "^3.5.31",
     "@vue/repl": "^4.3.1",
     "@vuepress/bundler-vite": "2.0.0-rc.14",
     "@vuepress/plugin-search": "2.0.0-rc.40",
@@ -28,13 +29,14 @@
     "vuepress-theme-hope": "2.0.0-rc.52"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
     "@moefy-canvas/core": "^0.5.2",
     "@moefy-canvas/theme-popper": "^0.5.2",
     "@vuepress/plugin-google-analytics": "2.0.0-rc.37",
+    "axios": "^1.7.7",
     "busuanzi.pure.js": "^1.0.3",
     "element-plus": "^2.7.8",
     "jparticles": "^3.5.0",
-    "jquery": "^3.7.1",
     "vuepress-plugin-oh-my-live2d": "^0.19.3"
   }
 }

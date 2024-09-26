@@ -9,9 +9,13 @@ import {setupTransparentNavbar} from 'vuepress-theme-hope/presets/transparentNav
 
 
 import elementplus from 'element-plus'
+import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 
 export default defineClientConfig({
     enhance({app, router, siteData}) {
+        for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
+            app.component(key, component);
+        }
         app.use(elementplus)
         app.component('Toggle', toggle)
     },
