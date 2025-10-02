@@ -19,6 +19,11 @@ export default hopeTheme({
   hotReload: true,
   docsDir: "src",
 
+    navbarLayout: {
+        start: ["Brand"],
+        center: ["Links"],
+        end: ["Repo","Wormhole","Travelling","Outlook","Search"],
+    },
   // 导航栏
   navbar,
 

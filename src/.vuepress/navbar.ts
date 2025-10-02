@@ -14,5 +14,6 @@ export default navbar([
         {text: "Python学习", icon:"/assets/icon/python.svg",link: "/docs/Python/"},
     ],
 },
+"/friends",
 "/about/",
 ]);

@@ -10,6 +10,8 @@ import {setupTransparentNavbar} from 'vuepress-theme-hope/presets/transparentNav
 
 import elementplus from 'element-plus'
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
+import Wormhole from "./components/Wormhole.js";
+import Travelling from "./components/Travelling.js";
 
 export default defineClientConfig({
     enhance({app, router, siteData}) {
@@ -18,6 +20,8 @@ export default defineClientConfig({
         }
         app.use(elementplus)
         app.component('Toggle', toggle)
+        app.component("Wormhole", Wormhole);
+        app.component("Travelling", Travelling);
     },
 
     setup() {

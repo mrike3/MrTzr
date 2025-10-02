@@ -4,7 +4,7 @@ icon: book
 home: true
 portfolio: true
 welcome: 
-name: 田正荣
+name: Mr.Tzr
 avatar: /assets/images/my.png
 
 titles:
@@ -23,13 +23,13 @@ content: portfolio
         <strong>性别：</strong> 男
     </li>
     <li>
-        <strong>学校：</strong> 西南林业大学
+        <strong>学校：</strong> 清华大学
     </li>
     <li>
         <strong>邮箱：</strong> 
         <ul>
-            <li>3136675549@qq.com</li>
-            <li>18087133066@163.com</li>
+            <li>313xxxxxxx@qq.com</li>
+            <li>180xxxxxxxx@163.com</li>
         </ul>
     </li>
     <li>
@@ -39,52 +39,6 @@ content: portfolio
         <strong>个人爱好：</strong> 打篮球，看书，编程，旅游，摄影，健身....
     </li>
 </ul>
-</el-row>
-
-## 教育经历
-
-
-<el-row style="width: 111%;flex-wrap: wrap;" >
-<el-col :span="6" :xs="24" align="center"> 
-
-
-```component VPCard
-title: 西南林业大学
-desc: 2023.09 - 2025.06 - 本科
-logo: https://www.swfu.edu.cn/wp-content/uploads/2018/09/favcion-1.png
-link: http://www.swfu.edu.cn/
-```
-</el-col>
-<el-col :span="6" :xs="24" align="center">
-
-```component VPCard
-title: 云南农业职业技术学院
-desc: 2020.09 - 2023.06 - 专科
-logo: https://s2.zimgs.cn/ims?f=webp&at=sc&kt=url&key=aHR0cHM6Ly9zdGF0aWMtZGF0YS5lb2wuY24vdXBsb2FkL2xvZ28vMjE2OS5qcGc=&sign=yx:nBNq-YdzkulUF9haUAYbuRbJvNM=&tv=400_400&p=
-link: http://www.ynavc.com/
-background: 
-```
-</el-col>
-
-<el-col :span="6" :xs="24" align="center">
-
-```component VPCard
-title: 红河州农业学校
-desc: 2017.09 - 2020.06 - 中专
-logo: https://static.zhijiao.cn/upload/img/202201/fa7c2206ee00219cac51147069b5e23d.jpg
-link: #
-```
-</el-col>
-
-<el-col :span="6" :xs="24" align="center">
-
-```component VPCard
-title: 屏边县第二中学
-desc: 2017.09 - 2020.06 - 初中
-logo: /assets/icon/教育.png
-link: #
-```
-</el-col>
 </el-row>
 
 ## 技能
@@ -178,7 +132,6 @@ link: https://www.esri.com/en-us/home
 ![Alt](/assets/images/SWFU/7.jpg  =x100)&nbsp;
 ![Alt](/assets/images/SWFU/8.jpg  =x100)&nbsp;
 ![Alt](/assets/images/SWFU/3.jpg  =x100)&nbsp;
-![Alt](/assets/images/SWFU/9.jpg  =x100)&nbsp;
 ![Alt](/assets/images/SWFU/10.jpg  =x100)&nbsp;
 ![Alt](/assets/images/other/1.jpg  =x100)&nbsp;
 ![Alt](/assets/images/other/2.jpg  =x100)&nbsp;
